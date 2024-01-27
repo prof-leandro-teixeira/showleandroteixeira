@@ -21,6 +21,6 @@ Se você deseja contribuir para melhorar este site ou adicionar informações so
 
 Para mais informações sobre Leandro Teixeira ou para contratá-lo para um evento, entre em contato:
 
-- **Email:** prof_leandromath@email.com
+- **Email:** prof_leandromath@gmail.com
 
 Agradecemos por visitar a página e apoiar a música de Leandro Teixeira!
