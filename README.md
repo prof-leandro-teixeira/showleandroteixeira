@@ -1,6 +1,6 @@
 # Página de Divulgação - Leandro Teixeira
 
-Bem-vindo à página de divulgação do músico Leandro Teixeira! Este site foi construído com HTML, CSS, JS e Bootstrap, e tem como objetivo promover o trabalho musical de Leandro Teixeira, que se dedica a performances de repertório pop com voz e violão.
+Bem-vindo à página de divulgação do músico Leandro Teixeira! Este site foi construído com HTML, CSS, JS e Bootstrap, e tem como objetivo promover o trabalho musical de Leandro Teixeira, que se apresenta com repertório diversificado em  performances com voz e violão.
 
 ## Tecnologias Utilizadas
 
@@ -21,6 +21,6 @@ Se você deseja contribuir para melhorar este site ou adicionar informações so
 
 Para mais informações sobre Leandro Teixeira ou para contratá-lo para um evento, entre em contato:
 
-- **Email:** prof_leandromath@gmail.com
+- **Email:** showleandroteixeira@gmail.com
 
 Agradecemos por visitar a página e apoiar a música de Leandro Teixeira!
