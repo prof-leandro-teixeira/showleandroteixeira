@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let depoimentos = ["Em julho de 2023, o Leandro tocou para alguns amigos na casa da minha mãe. Foi um show além das minhas expectativas, toca e canta muito, interage com a galera. (Mari - Santa Luzia)","Leandro tem um grande talento, possui excelente repertório atendendo a todos os gostos musicais e faixas etárias. Fiquei muito feliz e satisfeito em contratá-lo para tocar na festa de aniversário do meu filho. (Renato - BH)",
         "Só tenho elogios pela qualidade da apresentação e profissionalismo, todos os convidados gostaram bastante. Com certeza o contratarei novamente para as festas da família. (Thiago - BH)",
         "Chamei o Leandro para tocar no aniversário do meu filho. Foi incrível... meus amigos e minha família ficamos impressionados com seu talento. Com certeza o Leandro será nossa primeira opção nos próximos eventos. (Lilia - BH)",
-        "Nada melhor do que contratar quem entende do assunto. Contratamos o Leandro e não precisamos nos preocupar com nada, só curtimos demais! Canta muito e toca muito. (Renata - JF)",'','',''
+        "Nada melhor do que contratar quem entende do assunto. Contratamos o Leandro e não precisamos nos preocupar com nada, só curtimos demais! Canta muito e toca muito. (Renata - JF)"
     ];
 
     let depoimentoAtual = 0;
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Define intervalo para avançar automaticamente
-    let intervalo = setInterval(avancarDepoimentos, 500);
+    let intervalo = setInterval(avancarDepoimentos, 5000);
 
     // Adiciona eventos de clique para as setas
     document.getElementById("seta-esquerda").addEventListener("click", retrocederDepoimentos);
