@@ -1,6 +1,6 @@
 /* Fundo do body */
 body {
-    background: linear-gradient(rgba(5, 19, 141, 0.479), rgba(0, 0, 8, 0.664)), url('/imagens/fotoshow.jpg');
+    background: linear-gradient(rgba(5, 19, 141, 0.479), rgba(0, 0, 8, 0.664)), url('imagens/fotoshow.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
