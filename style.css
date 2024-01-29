@@ -1,0 +1,221 @@
+/* Fundo do body */
+body {
+    background: linear-gradient(rgba(5, 19, 141, 0.479), rgba(0, 0, 8, 0.664)), url('/imagens/fotoshow.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    overflow-x: hidden;
+}
+
+/* Títulos, Parágrafos, Listas, Links */
+a, h1, h2, h3, li, p, .main-title{
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 0%;
+    border-top: 0;
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+.main-title p{
+    position: relative;
+    border: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 200%;
+    padding-bottom: 10px;    
+}
+
+/* Barra de navegação */
+header{
+    align-items: center;
+}
+header h1 {
+    position: relative;
+    font-size: 700%;
+    letter-spacing: 10px;
+}
+
+header h2 {
+    position: relative;
+    margin-top: -10px;
+    font-size: 300%;
+    letter-spacing: 1px;   
+}
+
+
+/* menu */
+nav {
+    font-size: 50%;
+    text-align: center;
+}
+
+/* Links no menu de navegação */
+nav a {
+    background-color: #4b4a4a2c;
+    border-radius: 5%;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ff9c9c2d;
+    color: #fbff01;
+}
+
+hr {  
+    margin: 20px;
+}
+
+/* Repertório */
+
+
+/* Depoimentos */
+#depoimentoAtual,
+#depoimentos-carousel p {
+    color: #444;
+    font-size: 14px;
+    font-style: italic;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+/* Estilo para cada coluna de depoimento */
+.depoimento-column {
+    background-color: #a8a8a836;
+    border-radius: 10px;
+    display:grid;
+    flex-direction: column; 
+    margin: 20px;
+    padding: 10px;
+    height: 80px;
+    width: 600px;
+    min-height: 120px;
+    min-width: 150px;
+    overflow: hidden;
+}
+
+/* Estilo para o texto do depoimento */
+.depoimento-column p {
+    font-size: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+
+/* Estilo para o container do carousel */
+.carousel-inner {
+    display: flex;
+    justify-content: baseline;
+    overflow: hidden; 
+}
+
+.seta {
+    position: absolute;
+    cursor: pointer;
+    font-size: 100px;
+    color: #a8a8a836;
+    padding: 30px;
+  }
+
+  #seta-esquerda {
+    left: 0;
+  }
+
+  #seta-direita {
+    right: 0;
+  }
+
+/* Portfólio */
+.portfolio-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 5px;
+}
+
+.portfolio-item img {
+    border-radius: 10%;
+    max-width: 100%; 
+    height: auto;
+}
+
+/* contato */
+.contact-box {
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.contact-box a {
+    align-items: center; 
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    align-items: center;
+    color: #adaf13;
+    text-decoration: none;
+}
+
+.contact-box a p {
+    align-items: center;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-box i {
+    align-items: center;
+    background-color: #a8a8a817;
+    border-radius: 15%;
+    font-size: 24px;
+    height: 55px;
+    line-height: 55px;
+    width: 55px;
+}
+
+#contact-area {
+    justify-content: space-around;
+    text-align: center;
+}
+
+#contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.main-title {
+    width: 100%;
+}
+
+/* Rodapé */
+footer {
+    margin: 0;
+    padding: 50px 0 0 0;
+    text-align: right;
+}
+
+footer a {
+    color: #d40000;
+    text-decoration: none;
+}
+
+
